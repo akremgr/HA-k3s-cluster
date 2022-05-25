@@ -72,7 +72,7 @@ Twitter.  
 
 To understand more how to set haproxy configuration :
 
-<https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/#:~:text=There%20are%20four%20essential%20sections,routed%20to%20your%20backend%20servers>[.]{.smallcaps}
+<https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/#:~:text=There%20are%20four%20essential%20sections,routed%20to%20your%20backend%20servers>[.]
 
 # What is Keepalived ?
 
