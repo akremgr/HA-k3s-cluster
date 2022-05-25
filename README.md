@@ -144,6 +144,8 @@ computer. It uses SSH to connect to remote servers and creates a local
 KUBECONFIG file on your disk. Binaries are provided for MacOS, Windows,
 and Linux (including ARM).
 
+## Additional tools 
+
 **Cluster-ssh**
 
 Cluster SSH is a tool available under Linux allowing to administer
@@ -427,8 +429,7 @@ let’s create keepalived.conf file on each instances.
 
         balance roundrobin
 
-        default-server inter 10s downinter 5s rise 2 fall 2 slowstart 20s
-        maxconn 250 maxqueue 256 weight 100
+        default-server inter 10s downinter 5s rise 2 fall 2 slowstart 20s maxconn 250 maxqueue 256 weight 100
 
         server master1.medianet 192.168.126.172:6443 check inter 1s       # Change server name and ip with optinal ones 
 
@@ -609,8 +610,7 @@ k3sup is distributed as a static Go binary.
     --user=root
 
 
-![](./media/image12.png){width="6.257638888888889in"
-height="1.0986111111111112in"}
+![](./media/image12.png)
 
  ### Verify cluster setup**
 
