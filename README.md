@@ -687,4 +687,3 @@ will change to **active** state
 
 ![](./media/image19.png)
 
-Adding cluster
